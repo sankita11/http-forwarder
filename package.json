@@ -1,0 +1,30 @@
+{
+  "name": "sweeps-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankita11/http-forwarder.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Restful",
+    "API"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankita11/http-forwarder/issues"
+  },
+  "homepage": "https://github.com/sankita11/http-forwarder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4"
+  }
+}
