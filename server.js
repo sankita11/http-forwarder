@@ -1,9 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+
+const Config = require('./config/config');
 const ForwarderController = require('./controllers/forwarderController');
 
-const app = express(),
-    port = 1337;
+const app = express()
+const port = Config.port;
 
 let server = app.listen(port);
 
